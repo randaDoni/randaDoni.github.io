@@ -1,0 +1,120 @@
+.bg-darken {
+    background-color: rgb(18, 18, 18);
+}
+
+li > a {
+    color: white;
+}
+
+.artist-container {
+    position: relative;
+    width: 100%; /* Mengambil seluruh lebar yang tersedia */
+    max-width: 100%; /* Menghindari pembatasan ukuran lebar */
+    max-height: 200px;
+}
+
+.artist-image {
+    width: 100%;
+    border-radius: 10px;  /* Membulatkan sudut gambar */
+    object-fit: cover;
+    height: 210px;
+    object-position: center;
+    display: block;
+    position: sticky;
+}
+
+.artist-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem; /* Atur ukuran font */
+}
+
+.artist-info h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+/* Gaya untuk kontainer musik */
+.music-container {
+    width: 100%;
+    height: 400px; /* Sesuaikan sesuai kebutuhan */
+    background: radial-gradient(circle at 50% -1000px, #00551e, #121212);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.verified {
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-bottom: -30px;
+    font-size: 19px;
+}
+
+
+.list-group-item {
+    background-color: #181818;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.list-group-item:hover {
+    background-color: #282828;
+}
+
+h5 {
+    color: #fff;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+.btn-outline-light {
+    color: #1db954;
+    border-color: #1db954;
+}
+
+.btn-outline-light:hover {
+    background-color: #1db954;
+    color: #fff;
+}
+
+.bi-play-circle-fill {
+    font-size: 50px !important; /* Sesuaikan ukuran sesuai kebutuhan */
+    color: #1ed760; /* Opsional: Atur warna ikon */
+}
+
+.btn-follow {
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: transparent;
+    border: 0.5px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-follow:hover {
+    transform: scale(1.1); /* Membesarkan tombol 10% */
+    border: 2px solid #fff; /* Memastikan border tetap sesuai */
+}
+
+#sidebar {
+    font-size: 16px;
+}
+
+.play-button:hover{
+    transform: scale(1.1);
+}
+
+
